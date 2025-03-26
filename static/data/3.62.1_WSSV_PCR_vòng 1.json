@@ -1,0 +1,37 @@
+[
+    {
+        "Reagent (25ul\/pu)":"PCR mix 2X",
+        " WSSV_PCR_1 mix (ul)":12.5,
+        " IC mix (ul)":12.5
+    },
+    {
+        "Reagent (25ul\/pu)":"WSSV-F1",
+        " WSSV_PCR_1 mix (ul)":0.5,
+        " IC mix (ul)":""
+    },
+    {
+        "Reagent (25ul\/pu)":"WSSV-R1",
+        " WSSV_PCR_1 mix (ul)":0.5,
+        " IC mix (ul)":""
+    },
+    {
+        "Reagent (25ul\/pu)":"Shrimp-F",
+        " WSSV_PCR_1 mix (ul)":"",
+        " IC mix (ul)":0.5
+    },
+    {
+        "Reagent (25ul\/pu)":"Shirmp-R",
+        " WSSV_PCR_1 mix (ul)":"",
+        " IC mix (ul)":0.5
+    },
+    {
+        "Reagent (25ul\/pu)":"Nước",
+        " WSSV_PCR_1 mix (ul)":6.5,
+        " IC mix (ul)":6.5
+    },
+    {
+        "Reagent (25ul\/pu)":"DNA template",
+        " WSSV_PCR_1 mix (ul)":5.0,
+        " IC mix (ul)":5.0
+    }
+]

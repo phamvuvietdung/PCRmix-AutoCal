@@ -1,0 +1,42 @@
+[
+    {
+        "Reagent (20ul\/pu)":"qPCR 2X mix",
+        " Norovirus qPCR mix (ul)":10.0,
+        " IC mix (ul)":10.0
+    },
+    {
+        "Reagent (20ul\/pu)":"RT mix 50X",
+        " Norovirus qPCR mix (ul)":0.4,
+        " IC mix (ul)":0.4
+    },
+    {
+        "Reagent (20ul\/pu)":"F primer (G1 hoặc G2)",
+        " Norovirus qPCR mix (ul)":1.8,
+        " IC mix (ul)":""
+    },
+    {
+        "Reagent (20ul\/pu)":"R primer (G1 hoặc G2)",
+        " Norovirus qPCR mix (ul)":1.8,
+        " IC mix (ul)":""
+    },
+    {
+        "Reagent (20ul\/pu)":"Probe (G1 hoặc G2)",
+        " Norovirus qPCR mix (ul)":0.5,
+        " IC mix (ul)":""
+    },
+    {
+        "Reagent (20ul\/pu)":"Control mix 25X",
+        " Norovirus qPCR mix (ul)":"",
+        " IC mix (ul)":0.8
+    },
+    {
+        "Reagent (20ul\/pu)":"Nước",
+        " Norovirus qPCR mix (ul)":0.5,
+        " IC mix (ul)":3.8
+    },
+    {
+        "Reagent (20ul\/pu)":"DNA template",
+        " Norovirus qPCR mix (ul)":5.0,
+        " IC mix (ul)":5.0
+    }
+]

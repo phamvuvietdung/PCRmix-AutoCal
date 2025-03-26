@@ -1,0 +1,42 @@
+[
+    {
+        "Reagent (25ul\/pu)":"qPCR 2X mix",
+        " HAV qPCR mix (ul)":12.5,
+        " IC mix (ul)":12.5
+    },
+    {
+        "Reagent (25ul\/pu)":"RT mix 50X",
+        " HAV qPCR mix (ul)":0.5,
+        " IC mix (ul)":0.5
+    },
+    {
+        "Reagent (25ul\/pu)":"F primer",
+        " HAV qPCR mix (ul)":0.7,
+        " IC mix (ul)":""
+    },
+    {
+        "Reagent (25ul\/pu)":"R primer",
+        " HAV qPCR mix (ul)":0.7,
+        " IC mix (ul)":""
+    },
+    {
+        "Reagent (25ul\/pu)":"Probe (1uM)",
+        " HAV qPCR mix (ul)":5.6,
+        " IC mix (ul)":""
+    },
+    {
+        "Reagent (25ul\/pu)":"Control mix 25X",
+        " HAV qPCR mix (ul)":"",
+        " IC mix (ul)":1.0
+    },
+    {
+        "Reagent (25ul\/pu)":"Nước",
+        " HAV qPCR mix (ul)":"",
+        " IC mix (ul)":6.0
+    },
+    {
+        "Reagent (25ul\/pu)":"DNA template",
+        " HAV qPCR mix (ul)":5.0,
+        " IC mix (ul)":5.0
+    }
+]

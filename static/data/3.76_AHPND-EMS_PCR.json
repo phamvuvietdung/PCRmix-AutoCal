@@ -1,0 +1,37 @@
+[
+    {
+        "Reagent (25ul\/pu)":"PCR mix 2X",
+        " AHPND mix (ul)":12.5,
+        " IC mix (ul)":12.5
+    },
+    {
+        "Reagent (25ul\/pu)":"AHPND-F",
+        " AHPND mix (ul)":0.5,
+        " IC mix (ul)":""
+    },
+    {
+        "Reagent (25ul\/pu)":"AHPND-R",
+        " AHPND mix (ul)":0.5,
+        " IC mix (ul)":""
+    },
+    {
+        "Reagent (25ul\/pu)":"Shrimp-F",
+        " AHPND mix (ul)":"",
+        " IC mix (ul)":0.5
+    },
+    {
+        "Reagent (25ul\/pu)":"Shirmp-R",
+        " AHPND mix (ul)":"",
+        " IC mix (ul)":0.5
+    },
+    {
+        "Reagent (25ul\/pu)":"Nước",
+        " AHPND mix (ul)":6.5,
+        " IC mix (ul)":6.5
+    },
+    {
+        "Reagent (25ul\/pu)":"DNA template",
+        " AHPND mix (ul)":5.0,
+        " IC mix (ul)":5.0
+    }
+]

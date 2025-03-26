@@ -1,0 +1,26 @@
+[
+    {
+        "Reagent (25ul\/pu)":"qPCR 2X mix",
+        " Norovirus PCR mix (ul)":12.5
+    },
+    {
+        "Reagent (25ul\/pu)":"RT mix 50X",
+        " Norovirus PCR mix (ul)":0.5
+    },
+    {
+        "Reagent (25ul\/pu)":"F primer (G1 hoặc G2)",
+        " Norovirus PCR mix (ul)":1.0
+    },
+    {
+        "Reagent (25ul\/pu)":"R primer (G1 hoặc G2)",
+        " Norovirus PCR mix (ul)":1.0
+    },
+    {
+        "Reagent (25ul\/pu)":"Nước",
+        " Norovirus PCR mix (ul)":5.0
+    },
+    {
+        "Reagent (25ul\/pu)":"DNA template",
+        " Norovirus PCR mix (ul)":5.0
+    }
+]

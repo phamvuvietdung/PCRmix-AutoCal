@@ -1,0 +1,42 @@
+[
+    {
+        "Reagent (25ul\/pu)":"PCR mix 2X",
+        " Edwardsiella PCR mix (ul)":12.5,
+        " IC mix (ul)":12.5
+    },
+    {
+        "Reagent (25ul\/pu)":"Edward-F",
+        " Edwardsiella PCR mix (ul)":0.8,
+        " IC mix (ul)":""
+    },
+    {
+        "Reagent (25ul\/pu)":"Edward-R",
+        " Edwardsiella PCR mix (ul)":0.8,
+        " IC mix (ul)":""
+    },
+    {
+        "Reagent (25ul\/pu)":"Plasmid pBR322",
+        " Edwardsiella PCR mix (ul)":"",
+        " IC mix (ul)":0.5
+    },
+    {
+        "Reagent (25ul\/pu)":"pBR322-F",
+        " Edwardsiella PCR mix (ul)":"",
+        " IC mix (ul)":0.5
+    },
+    {
+        "Reagent (25ul\/pu)":"pBR322-R",
+        " Edwardsiella PCR mix (ul)":"",
+        " IC mix (ul)":0.5
+    },
+    {
+        "Reagent (25ul\/pu)":"Water",
+        " Edwardsiella PCR mix (ul)":5.9,
+        " IC mix (ul)":6.0
+    },
+    {
+        "Reagent (25ul\/pu)":"DNA template",
+        " Edwardsiella PCR mix (ul)":5.0,
+        " IC mix (ul)":5.0
+    }
+]

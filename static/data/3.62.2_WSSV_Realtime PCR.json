@@ -1,0 +1,32 @@
+[
+    {
+        "WSSV_qPCR Reagent (25ul\/pu)":"qPCR mix 2X",
+        " WSSV mix volume (ul)":12.5,
+        " Shrimp(IC) mix volume (ul)":12.5
+    },
+    {
+        "WSSV_qPCR Reagent (25ul\/pu)":"F primer",
+        " WSSV mix volume (ul)":1.0,
+        " Shrimp(IC) mix volume (ul)":1.0
+    },
+    {
+        "WSSV_qPCR Reagent (25ul\/pu)":"R primer",
+        " WSSV mix volume (ul)":1.0,
+        " Shrimp(IC) mix volume (ul)":1.0
+    },
+    {
+        "WSSV_qPCR Reagent (25ul\/pu)":"Probe",
+        " WSSV mix volume (ul)":0.3,
+        " Shrimp(IC) mix volume (ul)":0.5
+    },
+    {
+        "WSSV_qPCR Reagent (25ul\/pu)":"Water",
+        " WSSV mix volume (ul)":5.2,
+        " Shrimp(IC) mix volume (ul)":5.0
+    },
+    {
+        "WSSV_qPCR Reagent (25ul\/pu)":"DNA template",
+        " WSSV mix volume (ul)":5.0,
+        " Shrimp(IC) mix volume (ul)":5.0
+    }
+]

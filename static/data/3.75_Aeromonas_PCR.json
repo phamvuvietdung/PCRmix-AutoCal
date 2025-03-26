@@ -1,0 +1,42 @@
+[
+    {
+        "Reagent (25ul\/pu)":"PCR mix 2X",
+        " Aeromonas PCR mix (ul)":12.5,
+        " IC mix (ul)":12.5
+    },
+    {
+        "Reagent (25ul\/pu)":"Aeromonas-F",
+        " Aeromonas PCR mix (ul)":2.0,
+        " IC mix (ul)":""
+    },
+    {
+        "Reagent (25ul\/pu)":"Aeromonas-R",
+        " Aeromonas PCR mix (ul)":2.0,
+        " IC mix (ul)":""
+    },
+    {
+        "Reagent (25ul\/pu)":"Plasmid pBR322",
+        " Aeromonas PCR mix (ul)":"",
+        " IC mix (ul)":0.5
+    },
+    {
+        "Reagent (25ul\/pu)":"pBR322-F",
+        " Aeromonas PCR mix (ul)":"",
+        " IC mix (ul)":0.5
+    },
+    {
+        "Reagent (25ul\/pu)":"pBR322-R",
+        " Aeromonas PCR mix (ul)":"",
+        " IC mix (ul)":0.5
+    },
+    {
+        "Reagent (25ul\/pu)":"Water",
+        " Aeromonas PCR mix (ul)":3.5,
+        " IC mix (ul)":6.0
+    },
+    {
+        "Reagent (25ul\/pu)":"DNA template",
+        " Aeromonas PCR mix (ul)":5.0,
+        " IC mix (ul)":5.0
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "Reagent (20ul\/pu)":"PCR mix 2X",
+        " Stx1\/ Stx2\/ eae\/ O157\/ O111\/ O26\/ O104 mix (ul)":10.0
+    },
+    {
+        "Reagent (20ul\/pu)":"F (Stx1\/ Stx2\/ eae\/ O157\/ O111\/ O26\/ O104)",
+        " Stx1\/ Stx2\/ eae\/ O157\/ O111\/ O26\/ O104 mix (ul)":1.0
+    },
+    {
+        "Reagent (20ul\/pu)":"R (Stx1\/ Stx2\/ eae\/ O157\/ O111\/ O26\/ O104)",
+        " Stx1\/ Stx2\/ eae\/ O157\/ O111\/ O26\/ O104 mix (ul)":1.0
+    },
+    {
+        "Reagent (20ul\/pu)":"Probe (Stx1\/ Stx2\/ eae\/ O157\/ O111\/ O26\/ O104)",
+        " Stx1\/ Stx2\/ eae\/ O157\/ O111\/ O26\/ O104 mix (ul)":0.5
+    },
+    {
+        "Reagent (20ul\/pu)":"Nước",
+        " Stx1\/ Stx2\/ eae\/ O157\/ O111\/ O26\/ O104 mix (ul)":2.5
+    },
+    {
+        "Reagent (20ul\/pu)":"DNA template",
+        " Stx1\/ Stx2\/ eae\/ O157\/ O111\/ O26\/ O104 mix (ul)":5.0
+    }
+]

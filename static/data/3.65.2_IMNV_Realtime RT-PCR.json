@@ -1,0 +1,42 @@
+[
+    {
+        "Reagent (20ul\/pu)":"PCR mastermix 2X",
+        "IMNV PCR mix (ul)":10.0,
+        " IC mix (ul)":10.0
+    },
+    {
+        "Reagent (20ul\/pu)":"RT mix 50X",
+        "IMNV PCR mix (ul)":0.4,
+        " IC mix (ul)":0.4
+    },
+    {
+        "Reagent (20ul\/pu)":"IMNV-F",
+        "IMNV PCR mix (ul)":0.6,
+        " IC mix (ul)":""
+    },
+    {
+        "Reagent (20ul\/pu)":"IMNV-R",
+        "IMNV PCR mix (ul)":0.6,
+        " IC mix (ul)":""
+    },
+    {
+        "Reagent (20ul\/pu)":"IMNV-Probe",
+        "IMNV PCR mix (ul)":0.4,
+        " IC mix (ul)":""
+    },
+    {
+        "Reagent (20ul\/pu)":"Control mix 25X",
+        "IMNV PCR mix (ul)":"",
+        " IC mix (ul)":0.8
+    },
+    {
+        "Reagent (20ul\/pu)":"Nước",
+        "IMNV PCR mix (ul)":3.0,
+        " IC mix (ul)":3.8
+    },
+    {
+        "Reagent (20ul\/pu)":"Template",
+        "IMNV PCR mix (ul)":5.0,
+        " IC mix (ul)":5.0
+    }
+]

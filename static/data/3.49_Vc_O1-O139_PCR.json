@@ -1,0 +1,42 @@
+[
+    {
+        "PCR mix Reagent (25ul\/pu)":"PCR mix 2X",
+        "Thể tích cho chỉ tiêu phân tích (µl)":12.5,
+        "IC mix (µl)":12.5
+    },
+    {
+        "PCR mix Reagent (25ul\/pu)":"Mồi xuôi (CT hoặc O1\/O139)",
+        "Thể tích cho chỉ tiêu phân tích (µl)":0.5,
+        "IC mix (µl)":""
+    },
+    {
+        "PCR mix Reagent (25ul\/pu)":"Mồi ngược (CT hoặc O1\/O139)",
+        "Thể tích cho chỉ tiêu phân tích (µl)":0.5,
+        "IC mix (µl)":""
+    },
+    {
+        "PCR mix Reagent (25ul\/pu)":"Plasmid pBR322",
+        "Thể tích cho chỉ tiêu phân tích (µl)":"",
+        "IC mix (µl)":0.5
+    },
+    {
+        "PCR mix Reagent (25ul\/pu)":"Mồi xuôi pBR322",
+        "Thể tích cho chỉ tiêu phân tích (µl)":"",
+        "IC mix (µl)":0.5
+    },
+    {
+        "PCR mix Reagent (25ul\/pu)":"Mồi ngược pBR322",
+        "Thể tích cho chỉ tiêu phân tích (µl)":"",
+        "IC mix (µl)":0.5
+    },
+    {
+        "PCR mix Reagent (25ul\/pu)":"Nước",
+        "Thể tích cho chỉ tiêu phân tích (µl)":6.5,
+        "IC mix (µl)":6.0
+    },
+    {
+        "PCR mix Reagent (25ul\/pu)":"DNA template",
+        "Thể tích cho chỉ tiêu phân tích (µl)":5.0,
+        "IC mix (µl)":5.0
+    }
+]

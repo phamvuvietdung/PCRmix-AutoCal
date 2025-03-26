@@ -1,0 +1,26 @@
+[
+    {
+        "Reagent (25ul\/pu)":"PCR mix 2X",
+        " VNN RT-PCR mix (ul)":12.5
+    },
+    {
+        "Reagent (25ul\/pu)":"RT mix 50X",
+        " VNN RT-PCR mix (ul)":0.5
+    },
+    {
+        "Reagent (25ul\/pu)":"VNN-F",
+        " VNN RT-PCR mix (ul)":1.0
+    },
+    {
+        "Reagent (25ul\/pu)":"VNN-R",
+        " VNN RT-PCR mix (ul)":1.0
+    },
+    {
+        "Reagent (25ul\/pu)":"Water",
+        " VNN RT-PCR mix (ul)":5.0
+    },
+    {
+        "Reagent (25ul\/pu)":"Template",
+        " VNN RT-PCR mix (ul)":5.0
+    }
+]

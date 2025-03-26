@@ -1,0 +1,47 @@
+[
+    {
+        "Reagent (25ul\/pu)":"qPCR mix 2X",
+        " AHPND mix (ul)":12.5,
+        " Shrimp(IC) mix (ul)":12.5
+    },
+    {
+        "Reagent (25ul\/pu)":"AHPND-F",
+        " AHPND mix (ul)":0.75,
+        " Shrimp(IC) mix (ul)":""
+    },
+    {
+        "Reagent (25ul\/pu)":"AHPND-R",
+        " AHPND mix (ul)":0.75,
+        " Shrimp(IC) mix (ul)":""
+    },
+    {
+        "Reagent (25ul\/pu)":"AHPND-Probe",
+        " AHPND mix (ul)":0.38,
+        " Shrimp(IC) mix (ul)":""
+    },
+    {
+        "Reagent (25ul\/pu)":"Shrimp-F",
+        " AHPND mix (ul)":"",
+        " Shrimp(IC) mix (ul)":1.0
+    },
+    {
+        "Reagent (25ul\/pu)":"Shrimp-R",
+        " AHPND mix (ul)":"",
+        " Shrimp(IC) mix (ul)":1.0
+    },
+    {
+        "Reagent (25ul\/pu)":"Shrimp-Probe",
+        " AHPND mix (ul)":"",
+        " Shrimp(IC) mix (ul)":0.5
+    },
+    {
+        "Reagent (25ul\/pu)":"Water",
+        " AHPND mix (ul)":5.62,
+        " Shrimp(IC) mix (ul)":5.0
+    },
+    {
+        "Reagent (25ul\/pu)":"DNA template",
+        " AHPND mix (ul)":5.0,
+        " Shrimp(IC) mix (ul)":5.0
+    }
+]

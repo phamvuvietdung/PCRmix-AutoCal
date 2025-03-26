@@ -1,0 +1,37 @@
+[
+    {
+        "Reagent (25ul\/pu)":"PCR mix 2X",
+        " IHHNV mix (ul)":12.5,
+        " IC mix (ul)":12.5
+    },
+    {
+        "Reagent (25ul\/pu)":"IHHNV-F",
+        " IHHNV mix (ul)":1.0,
+        " IC mix (ul)":""
+    },
+    {
+        "Reagent (25ul\/pu)":"IHHNV-R",
+        " IHHNV mix (ul)":1.0,
+        " IC mix (ul)":""
+    },
+    {
+        "Reagent (25ul\/pu)":"Shrimp-F",
+        " IHHNV mix (ul)":"",
+        " IC mix (ul)":0.5
+    },
+    {
+        "Reagent (25ul\/pu)":"Shirmp-R",
+        " IHHNV mix (ul)":"",
+        " IC mix (ul)":0.5
+    },
+    {
+        "Reagent (25ul\/pu)":"Nước",
+        " IHHNV mix (ul)":5.5,
+        " IC mix (ul)":6.5
+    },
+    {
+        "Reagent (25ul\/pu)":"DNA template",
+        " IHHNV mix (ul)":5.0,
+        " IC mix (ul)":5.0
+    }
+]

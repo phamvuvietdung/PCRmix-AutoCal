@@ -1,0 +1,42 @@
+[
+    {
+        "Reagent (25ul\/pu)":"qPCR 2X mix",
+        " O157 mix":12.5,
+        " IC mix":12.5
+    },
+    {
+        "Reagent (25ul\/pu)":"VT-F",
+        " O157 mix":0.5,
+        " IC mix":""
+    },
+    {
+        "Reagent (25ul\/pu)":"VT-R",
+        " O157 mix":0.5,
+        " IC mix":""
+    },
+    {
+        "Reagent (25ul\/pu)":"Plasmid pBR322",
+        " O157 mix":"",
+        " IC mix":0.5
+    },
+    {
+        "Reagent (25ul\/pu)":"pBR322-F",
+        " O157 mix":"",
+        " IC mix":0.5
+    },
+    {
+        "Reagent (25ul\/pu)":"pBR322-R",
+        " O157 mix":"",
+        " IC mix":0.5
+    },
+    {
+        "Reagent (25ul\/pu)":"Nước",
+        " O157 mix":6.5,
+        " IC mix":6.0
+    },
+    {
+        "Reagent (25ul\/pu)":"DNA template",
+        " O157 mix":5.0,
+        " IC mix":5.0
+    }
+]

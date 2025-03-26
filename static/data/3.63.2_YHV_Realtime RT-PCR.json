@@ -1,0 +1,42 @@
+[
+    {
+        "YHV_RT-qPCR Reagent (25ul\/pu)":"qPCR mix 2X",
+        " YHV mix (ul)":12.5,
+        " IC mix (ul)":12.5
+    },
+    {
+        "YHV_RT-qPCR Reagent (25ul\/pu)":"RT mix 50X",
+        " YHV mix (ul)":0.5,
+        " IC mix (ul)":0.5
+    },
+    {
+        "YHV_RT-qPCR Reagent (25ul\/pu)":"YHV-F primer",
+        " YHV mix (ul)":0.75,
+        " IC mix (ul)":""
+    },
+    {
+        "YHV_RT-qPCR Reagent (25ul\/pu)":"YHV-R primer",
+        " YHV mix (ul)":0.75,
+        " IC mix (ul)":""
+    },
+    {
+        "YHV_RT-qPCR Reagent (25ul\/pu)":"YHV-Probe",
+        " YHV mix (ul)":0.25,
+        " IC mix (ul)":""
+    },
+    {
+        "YHV_RT-qPCR Reagent (25ul\/pu)":"Control mix 25X",
+        " YHV mix (ul)":"",
+        " IC mix (ul)":1.0
+    },
+    {
+        "YHV_RT-qPCR Reagent (25ul\/pu)":"Water",
+        " YHV mix (ul)":5.25,
+        " IC mix (ul)":6.0
+    },
+    {
+        "YHV_RT-qPCR Reagent (25ul\/pu)":"DNA template",
+        " YHV mix (ul)":5.0,
+        " IC mix (ul)":5.0
+    }
+]

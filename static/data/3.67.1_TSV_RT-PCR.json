@@ -1,0 +1,26 @@
+[
+    {
+        "Reagent (25ul\/pu)":"PCR mastermix 2X",
+        "TSV PCR mix (ul)":12.5
+    },
+    {
+        "Reagent (25ul\/pu)":"RT mix 50X",
+        "TSV PCR mix (ul)":0.5
+    },
+    {
+        "Reagent (25ul\/pu)":"F",
+        "TSV PCR mix (ul)":1.0
+    },
+    {
+        "Reagent (25ul\/pu)":"R",
+        "TSV PCR mix (ul)":1.0
+    },
+    {
+        "Reagent (25ul\/pu)":"Nước",
+        "TSV PCR mix (ul)":5.0
+    },
+    {
+        "Reagent (25ul\/pu)":"Template",
+        "TSV PCR mix (ul)":5.0
+    }
+]

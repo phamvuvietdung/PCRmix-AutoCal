@@ -1,0 +1,42 @@
+[
+    {
+        "Reagent (25ul\/pu)":"PCR mix 2X",
+        " Heo\/Bò\/Gà\/Dê PCR mix (ul)":12.5,
+        " IC mix (ul)":12.5
+    },
+    {
+        "Reagent (25ul\/pu)":"F primer (Heo\/Bò\/Gà\/Dê)",
+        " Heo\/Bò\/Gà\/Dê PCR mix (ul)":0.75,
+        " IC mix (ul)":""
+    },
+    {
+        "Reagent (25ul\/pu)":"R primer (Heo\/Bò\/Gà\/Dê)",
+        " Heo\/Bò\/Gà\/Dê PCR mix (ul)":0.75,
+        " IC mix (ul)":""
+    },
+    {
+        "Reagent (25ul\/pu)":"Plasmid pBR322",
+        " Heo\/Bò\/Gà\/Dê PCR mix (ul)":"",
+        " IC mix (ul)":0.5
+    },
+    {
+        "Reagent (25ul\/pu)":"pBR322-F",
+        " Heo\/Bò\/Gà\/Dê PCR mix (ul)":"",
+        " IC mix (ul)":0.5
+    },
+    {
+        "Reagent (25ul\/pu)":"pBR322-R",
+        " Heo\/Bò\/Gà\/Dê PCR mix (ul)":"",
+        " IC mix (ul)":0.5
+    },
+    {
+        "Reagent (25ul\/pu)":"Water",
+        " Heo\/Bò\/Gà\/Dê PCR mix (ul)":6.0,
+        " IC mix (ul)":6.0
+    },
+    {
+        "Reagent (25ul\/pu)":"DNA template",
+        " Heo\/Bò\/Gà\/Dê PCR mix (ul)":5.0,
+        " IC mix (ul)":5.0
+    }
+]

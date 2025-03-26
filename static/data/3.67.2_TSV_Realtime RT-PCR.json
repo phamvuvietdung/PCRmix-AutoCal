@@ -1,0 +1,42 @@
+[
+    {
+        "Reagent (25ul\/pu)":"PCR mastermix 2X",
+        "TSV PCR mix (ul)":12.5,
+        " IC mix (ul)":12.5
+    },
+    {
+        "Reagent (25ul\/pu)":"RT mix 50X",
+        "TSV PCR mix (ul)":0.5,
+        " IC mix (ul)":0.5
+    },
+    {
+        "Reagent (25ul\/pu)":"TSV-F",
+        "TSV PCR mix (ul)":0.75,
+        " IC mix (ul)":""
+    },
+    {
+        "Reagent (25ul\/pu)":"TSV-R",
+        "TSV PCR mix (ul)":0.75,
+        " IC mix (ul)":""
+    },
+    {
+        "Reagent (25ul\/pu)":"TSV-Probe",
+        "TSV PCR mix (ul)":0.25,
+        " IC mix (ul)":""
+    },
+    {
+        "Reagent (25ul\/pu)":"Control mix 25X",
+        "TSV PCR mix (ul)":"",
+        " IC mix (ul)":1.0
+    },
+    {
+        "Reagent (25ul\/pu)":"Nước",
+        "TSV PCR mix (ul)":5.25,
+        " IC mix (ul)":6.0
+    },
+    {
+        "Reagent (25ul\/pu)":"Template",
+        "TSV PCR mix (ul)":5.0,
+        " IC mix (ul)":5.0
+    }
+]
