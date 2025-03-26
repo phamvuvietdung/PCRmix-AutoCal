@@ -1,20 +1,26 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
 }
 
 .navbar {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .table {
-    background: white;
+  background: white;
 }
 
 .table th {
-    text-align: center;
+  text-align: center;
 }
 
 .container {
-    max-width: 900px;
+  max-width: 900px;
+}
+
+/* CSS cho nhãn tên chỉ tiêu của các bảng */
+#chiTieuLabel {
+  font-weight: bold; /* In đậm */
+  margin-top: 10px;
 }
