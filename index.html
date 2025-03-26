@@ -29,6 +29,7 @@
     <div class="row mb-3">
         <div class="col-md-6">
             <label for="chiTieuSelect" class="form-label">Tên chỉ tiêu:</label>
+            <input type="text" id="searchChiTieu" class="form-control mb-2" placeholder="Tìm kiếm chỉ tiêu...">
             <select id="chiTieuSelect" class="form-select">
                 <option value="">Chọn chỉ tiêu</option>
             </select>
@@ -43,13 +44,27 @@
         </div>
     </div>
 
-    <button class="btn btn-primary" onclick="loadData()">Tính Mastermix</button>
+    <button class="btn btn-primary" onclick="loadData()">Tính từng chỉ tiêu</button>
+    <!-- <button class="btn btn-info" onclick="loadMultipleData()">Tính nhiều chỉ tiêu</button> -->
 
+    <!-- Hiển thị tên chỉ tiêu -->
+    <h3 id="chiTieuLabel" class="text-center text-primary"></h3>
+
+    <!-- Bảng dữ liệu -->
     <div class="table-responsive mt-4">
         <table class="table table-bordered table-striped">
-            <thead id="dataTableHead"></thead>
-            <tbody id="dataTableBody"></tbody>
+            <thead id="dataTableHead">
+                <!-- Dòng tiêu đề cột sẽ được thêm động -->
+            </thead>
+
+            <tbody id="dataTableBody">
+                <!-- Dữ liệu sẽ được hiển thị ở đây -->
+            </tbody>
         </table>
+
+        <div id="multipleResultsContainer" class="container mt-4">
+            <!-- Bảng multidata sẽ được thêm vào đây -->
+        </div>
     </div>
 </div>
 

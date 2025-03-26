@@ -25,6 +25,17 @@ function loadChiTieu() {
         .catch(error => console.error("Lỗi khi tải danh sách chỉ tiêu:", error));
 }
 
+// Hàm tìm kiếm trong dropdown chỉ tiêu
+document.getElementById("searchChiTieu").addEventListener("input", function () {
+    let searchText = this.value.toLowerCase();
+    let selectBox = document.getElementById("chiTieuSelect");
+
+    for (let option of selectBox.options) {
+        let text = option.textContent.toLowerCase();
+        option.style.display = text.includes(searchText) ? "block" : "none";
+    }
+});
+
 // Hàm tải dữ liệu từ file JSON của chỉ tiêu đã chọn
 function loadData() {
     let chiTieu = document.getElementById("chiTieuSelect").value; // Lấy chỉ tiêu đã chọn
@@ -41,9 +52,16 @@ function loadData() {
         .then(data => {
             let thead = document.getElementById("dataTableHead"); // Tiêu đề bảng
             let tbody = document.getElementById("dataTableBody"); // Nội dung bảng
-
+            let chiTieuLabel = document.getElementById("chiTieuLabel");  // 🟢 Lấy label
+            
             thead.innerHTML = ""; // Xóa tiêu đề cũ
             tbody.innerHTML = ""; // Xóa nội dung cũ
+
+            // Hiển thị tên chỉ tiêu
+            // chiTieuLabel.innerText = `Tên chỉ tiêu: ${chiTieu}`;
+            chiTieuLabel.innerText = `${chiTieu} / ${soPu} reaction / ${soPuIC} IC`;
+            chiTieuLabel.style.fontWeight = "bold"; // In đậm tiêu đề
+            chiTieuLabel.style.marginBottom = "10px"; // Tạo khoảng cách
 
             // Kiểm tra nếu dữ liệu rỗng thì hiển thị thông báo
             if (data.length === 0) {
@@ -61,7 +79,7 @@ function loadData() {
             });
             headerRow += "</tr>";
             thead.innerHTML = headerRow;
-
+            
             // Tạo nội dung bảng
             data.forEach((row, index) => {
                 let tr = `<tr>`;
@@ -88,6 +106,22 @@ function loadData() {
                 tr += `</tr>`;
                 tbody.innerHTML += tr;
             });
+
+            // Xóa nội dung ô tìm kiếm sau khi tính
+            document.getElementById("searchChiTieu").value = "";
+
+            // Hiển thị lại tất cả chỉ tiêu trong dropdown
+            let selectBox = document.getElementById("chiTieuSelect");
+            for (let option of selectBox.options) {
+                option.style.display = "block";
+            }
+
+            // Reset dropdown về "Chọn chỉ tiêu"
+            selectBox.value = "";  // Reset dropdown về mặc định
+
+            // Reset số phản ứng và số phản ứng IC về 1 sau khi tính toán
+            document.getElementById("soPu").value = 1;
+            document.getElementById("soPuIC").value = 1;
         })
         .catch(error => console.error("Lỗi khi tải dữ liệu:", error));
 }
