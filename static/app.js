@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     loadChiTieu(); // Gọi hàm tải danh sách chỉ tiêu khi trang web được mở
 });
 
+// Hàm tải danh sách chỉ tiêu từ list.json
 function loadChiTieu() {
     fetch("static/data/list.json")  // Đọc danh sách chỉ tiêu từ file JSON
         .then(response => response.json())
@@ -21,7 +22,7 @@ function loadChiTieu() {
         })
         .catch(error => console.error("Lỗi khi tải danh sách chỉ tiêu:", error));
 }
-
+// Hàm tải dữ liệu từ file JSON của chỉ tiêu đã chọn
 function loadData() {
     let chiTieu = document.getElementById("chiTieuSelect").value;
     let soPu = parseFloat(document.getElementById("soPu").value) || 1;
@@ -64,8 +65,11 @@ function loadData() {
                     let value = row[col];
 
                     // Nếu cột là số, nhân với số phản ứng
-                    if (colIndex === 1) value = (parseFloat(value) || 0) * soPu;
-                    if (colIndex === 2) value = (parseFloat(value) || 0) * soPuIC;
+                    // Dòng cuối cùng sẽ không nhân
+                    if (index < data.length - 1) {
+                        if (colIndex === 1) value = ((parseFloat(value) || 0) * soPu); // Cột 2 nhân số PU
+                        if (colIndex === 2) value = ((parseFloat(value) || 0) * soPuIC); // Cột 3 nhân số PU IC
+                    }
 
                     tr += `<td>${value}</td>`;
                 });
