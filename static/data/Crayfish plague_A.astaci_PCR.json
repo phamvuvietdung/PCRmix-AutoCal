@@ -1,0 +1,34 @@
+[
+    {
+        "Reagent (25ul\/pu)":"PCR mix 2X",
+        " Crayfish mix (ul)":12.5
+    },
+    {
+        "Reagent (25ul\/pu)":"Crayfish-F",
+        " Crayfish mix (ul)":1.0
+    },
+    {
+        "Reagent (25ul\/pu)":"Crayfish-R",
+        " Crayfish mix (ul)":1.0
+    },
+    {
+        "Reagent (25ul\/pu)":"Plasmid pBR322",
+        " Crayfish mix (ul)":0.5
+    },
+    {
+        "Reagent (25ul\/pu)":"pBR322-F",
+        " Crayfish mix (ul)":0.5
+    },
+    {
+        "Reagent (25ul\/pu)":"pBR322-R",
+        " Crayfish mix (ul)":0.5
+    },
+    {
+        "Reagent (25ul\/pu)":"Nước",
+        " Crayfish mix (ul)":4.0
+    },
+    {
+        "Reagent (25ul\/pu)":"DNA template",
+        " Crayfish mix (ul)":5.0
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "Reagent (25ul\/pu)":"PCR mix 2X",
+        " pat mix (ul)":12.5
+    },
+    {
+        "Reagent (25ul\/pu)":"pat-F",
+        " pat mix (ul)":1.0
+    },
+    {
+        "Reagent (25ul\/pu)":"pat-R",
+        " pat mix (ul)":1.0
+    },
+    {
+        "Reagent (25ul\/pu)":"pat-P",
+        " pat mix (ul)":0.5
+    },
+    {
+        "Reagent (25ul\/pu)":"Nước",
+        " pat mix (ul)":5.0
+    },
+    {
+        "Reagent (25ul\/pu)":"DNA template",
+        " pat mix (ul)":5.0
+    }
+]

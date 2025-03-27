@@ -1,0 +1,37 @@
+[
+    {
+        "Reagent (25ul\/pu)":"PCR mix 2X",
+        " Covid mix (ul)":10.0,
+        " IC mix (ul)":10.0
+    },
+    {
+        "Reagent (25ul\/pu)":"RT mix",
+        " Covid mix (ul)":0.4,
+        " IC mix (ul)":0.4
+    },
+    {
+        "Reagent (25ul\/pu)":"Primer-F",
+        " Covid mix (ul)":0.5,
+        " IC mix (ul)":1.8
+    },
+    {
+        "Reagent (25ul\/pu)":"Primer-R",
+        " Covid mix (ul)":0.5,
+        " IC mix (ul)":1.8
+    },
+    {
+        "Reagent (25ul\/pu)":"Primer-P",
+        " Covid mix (ul)":0.5,
+        " IC mix (ul)":0.5
+    },
+    {
+        "Reagent (25ul\/pu)":"Nước",
+        " Covid mix (ul)":3.1,
+        " IC mix (ul)":0.5
+    },
+    {
+        "Reagent (25ul\/pu)":"RNA template",
+        " Covid mix (ul)":5.0,
+        " IC mix (ul)":5.0
+    }
+]

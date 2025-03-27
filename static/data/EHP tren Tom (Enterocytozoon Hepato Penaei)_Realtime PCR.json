@@ -1,0 +1,32 @@
+[
+    {
+        "Reagent (25ul\/pu)":"PCR mix 2X",
+        " EHP mix (ul)":12.5,
+        " IC mix (ul)":12.5
+    },
+    {
+        "Reagent (25ul\/pu)":"EHP-F",
+        " EHP mix (ul)":1.0,
+        " IC mix (ul)":1.0
+    },
+    {
+        "Reagent (25ul\/pu)":"EHP-R",
+        " EHP mix (ul)":1.0,
+        " IC mix (ul)":1.0
+    },
+    {
+        "Reagent (25ul\/pu)":"EHP-P",
+        " EHP mix (ul)":0.5,
+        " IC mix (ul)":0.5
+    },
+    {
+        "Reagent (25ul\/pu)":"Nước",
+        " EHP mix (ul)":6.0,
+        " IC mix (ul)":6.0
+    },
+    {
+        "Reagent (25ul\/pu)":"DNA template",
+        " EHP mix (ul)":4.0,
+        " IC mix (ul)":4.0
+    }
+]

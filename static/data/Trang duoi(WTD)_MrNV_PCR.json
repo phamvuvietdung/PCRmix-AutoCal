@@ -1,0 +1,32 @@
+[
+    {
+        "Reagent (25ul\/pu)":"PCR mix 2X",
+        " WTD mix lan 1 (ul)":12.5,
+        " WTD mix lan 2 (ul)":12.5
+    },
+    {
+        "Reagent (25ul\/pu)":"RT mix 50X",
+        " WTD mix lan 1 (ul)":0.5,
+        " WTD mix lan 2 (ul)":""
+    },
+    {
+        "Reagent (25ul\/pu)":"WTD-F",
+        " WTD mix lan 1 (ul)":0.5,
+        " WTD mix lan 2 (ul)":0.5
+    },
+    {
+        "Reagent (25ul\/pu)":"WTD-R",
+        " WTD mix lan 1 (ul)":0.5,
+        " WTD mix lan 2 (ul)":0.5
+    },
+    {
+        "Reagent (25ul\/pu)":"Nước",
+        " WTD mix lan 1 (ul)":6.0,
+        " WTD mix lan 2 (ul)":10.5
+    },
+    {
+        "Reagent (25ul\/pu)":"RNA\/DNA template",
+        " WTD mix lan 1 (ul)":5.0,
+        " WTD mix lan 2 (ul)":1.0
+    }
+]
