@@ -44,14 +44,17 @@
         </div>
     </div>
 
-    <button class="btn btn-primary" onclick="loadData()">Tính từng chỉ tiêu</button>
-    <button class="btn btn-info" onclick="loadMultipleData()">Tính nhiều chỉ tiêu</button>
+    <button class="btn btn-primary mt-1 mx-1 px-3 flex-grow-1" onclick="loadData()">➕ Tính từng chỉ tiêu</button>
+    <button class="btn btn-info mt-1 mx-1 px-3 flex-grow-1" onclick="loadMultipleData()">🚀 Tính nhiều chỉ tiêu</button>
+    <button class="btn btn-danger mt-1 mx-1 px-5 flex-grow-1" onclick="clearAllTables()">🗑️ Clear All</button>
 
     <!-- Hiển thị tên chỉ tiêu -->
-    <h3 id="chiTieuLabel" class="text-left text-dark"></h3>
+     <!-- thay vì để riêng. đã tạo vào chung thẻ với table. để dễ xóa -->
+    <!-- <h3 id="chiTieuLabel" class="text-left text-dark"></h3> -->
 
     <!-- Bảng dữ liệu -->
     <div class="table-responsive mt-4">
+        <h3 id="chiTieuLabel" class="text-left text-dark"></h3>
         <table class="table table-bordered table-striped">
             <thead id="dataTableHead">
                 <!-- Dòng tiêu đề cột sẽ được thêm động -->

@@ -36,11 +36,31 @@ document.getElementById("searchChiTieu").addEventListener("input", function () {
     }
 });
 
+// Hàm tạo nút xóa cho mỗi bảng. hàm này để tham khảo. không sử dụng trong ứng dụng này
+function createDeleteButton(tableId) {
+    let btn = document.createElement("button");
+    btn.className = "btn btn-danger btn-sm fw-bold ms-2";
+    btn.innerHTML = "🗑 Xóa";
+    btn.onclick = function () {
+        document.getElementById(tableId).remove();
+    };
+    return btn;
+}
+
+// Hàm clear all
+function clearAllTables() {
+    document.getElementById("dataTableHead").innerHTML = "";
+    document.getElementById("dataTableBody").innerHTML = "";
+    document.getElementById("chiTieuLabel").textContent = "";
+    document.getElementById("multipleDataContainer").innerHTML = "";
+}
+
 // Hàm tải dữ liệu từ file JSON của chỉ tiêu đã chọn
 function loadData() {
     let chiTieu = document.getElementById("chiTieuSelect").value; // Lấy chỉ tiêu đã chọn
     let soPu = parseFloat(document.getElementById("soPu").value) || 1; // Lấy số phản ứng
     let soPuIC = parseFloat(document.getElementById("soPuIC").value) || 1; // Lấy số PU IC
+
 
     if (!chiTieu) { // Nếu chưa chọn chỉ tiêu thì báo lỗi
         alert("Vui lòng chọn chỉ tiêu!");
@@ -52,15 +72,26 @@ function loadData() {
         .then(data => {
             let thead = document.getElementById("dataTableHead"); // Tiêu đề bảng
             let tbody = document.getElementById("dataTableBody"); // Nội dung bảng
-            let chiTieuLabel = document.getElementById("chiTieuLabel");  // 🟢 Lấy label
+            let chiTieuLabel = document.getElementById("chiTieuLabel");  // Lấy label
             
             thead.innerHTML = ""; // Xóa tiêu đề cũ
             tbody.innerHTML = ""; // Xóa nội dung cũ
 
-            // Hiển thị tên chỉ tiêu
-            // chiTieuLabel.innerText = `Tên chỉ tiêu: ${chiTieu}`;
-            // 🟢 Tạo tiêu đề chỉ tiêu
-            chiTieuLabel.innerText = `${chiTieu} / ${soPu} reaction / ${soPuIC} IC`;
+            // Tạo tiêu đề chỉ tiêu kèm nút xóa
+            // chiTieuLabel.innerText = `${chiTieu} / ${soPu} reaction / ${soPuIC} IC`;
+            chiTieuLabel.innerHTML = `
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <span>${chiTieu} / ${soPu} reaction / ${soPuIC} IC</span>
+                                        <button class="btn btn-danger btn-sm fw-bold ms-2" id="btnXoaBang">🗑 Xóa</button>
+                                    </div>
+                                    `;
+             
+                                    // Gán sự kiện cho nút "Xóa"
+             document.getElementById("btnXoaBang").addEventListener("click", function () {
+                thead.innerHTML = "";
+                tbody.innerHTML = "";
+                chiTieuLabel.innerHTML = ""; // Xóa tiêu đề
+            });
 
             // Kiểm tra nếu dữ liệu rỗng thì hiển thị thông báo
             if (data.length === 0) {
@@ -125,6 +156,7 @@ function loadData() {
         .catch(error => console.error("Lỗi khi tải dữ liệu:", error));
 }
 
+// Hàm tạo nhiều bảng dữ liệu liên tiếp nhau
 function loadMultipleData() {
     let chiTieu = document.getElementById("chiTieuSelect").value; // Lấy chỉ tiêu đã chọn
     let soPu = parseFloat(document.getElementById("soPu").value) || 1; // Lấy số phản ứng
@@ -137,10 +169,10 @@ function loadMultipleData() {
 
     let container = document.getElementById("multipleDataContainer"); // Lấy container chứa nhiều bảng
 
-    // 🔹 Kiểm tra xem bảng đã tồn tại chưa
+    // Kiểm tra xem bảng đã tồn tại chưa
     let labelText = `${chiTieu} / ${soPu} reaction / ${soPuIC} IC`.trim();
 
-    // 🔹 Chuẩn hóa nội dung label cũ để so sánh chính xác hơn
+    // Chuẩn hóa nội dung label cũ để so sánh chính xác hơn
     let existingLabel = Array.from(container.getElementsByTagName("h3")).find(h3 => {
         let existingText = h3.innerText.replace(/\s+/g, " ").trim(); // Xóa khoảng trắng thừa
         return existingText === labelText;
@@ -154,20 +186,40 @@ function loadMultipleData() {
     fetch(`static/data/${chiTieu}.json`) // Lấy dữ liệu từ file JSON tương ứng
         .then(response => response.json()) // Chuyển dữ liệu thành JSON
         .then(data => {
-            let container = document.getElementById("multipleDataContainer"); // 🟢 Lấy container chứa nhiều bảng
+            let container = document.getElementById("multipleDataContainer"); // Lấy container chứa nhiều bảng
 
-            // 🟢 Tạo div chứa bảng dữ liệu mới
+            // Tạo div chứa bảng dữ liệu mới
             let tableContainer = document.createElement("div");
             tableContainer.classList.add("data-table-container");
             tableContainer.style.marginBottom = "20px"; // Tạo khoảng cách giữa các bảng
 
-            // 🟢 Tạo tiêu đề chỉ tiêu
+            // Tạo tiêu đề chỉ tiêu
             let chiTieuLabel = document.createElement("h3");
             chiTieuLabel.innerText = `${chiTieu} / ${soPu} reaction / ${soPuIC} IC`;
             chiTieuLabel.style.fontWeight = "bold"; // In đậm tiêu đề
-            tableContainer.appendChild(chiTieuLabel); // Thêm label vào container
+            // tableContainer.appendChild(chiTieuLabel); // Thêm label vào container
 
-            // 🟢 Kiểm tra nếu dữ liệu rỗng
+            // 🟢 Tạo nút xóa
+            let deleteButton = document.createElement("button");
+            deleteButton.innerText = "🗑 Xóa";
+            deleteButton.classList.add("btn", "btn-danger", "btn-sm");
+            deleteButton.style.marginLeft = "10px";
+            deleteButton.onclick = function () {
+                container.removeChild(tableContainer);
+            };
+
+            // Thêm tiêu đề & nút xóa vào container bảng
+            let headerDiv = document.createElement("div");
+            headerDiv.style.display = "flex";
+            headerDiv.style.alignItems = "center";
+            headerDiv.style.justifyContent = "space-between";
+            headerDiv.appendChild(chiTieuLabel);
+            headerDiv.appendChild(deleteButton);
+
+            // Gắn thẻ div có chứa lable và nút vào bảng
+            tableContainer.appendChild(headerDiv);           
+
+            // Kiểm tra nếu dữ liệu rỗng
             if (data.length === 0) {
                 let emptyMessage = document.createElement("p");
                 emptyMessage.innerText = "Không có dữ liệu";
@@ -177,11 +229,11 @@ function loadMultipleData() {
                 return;
             }
 
-            // 🟢 Tạo bảng mới
+            // Tạo bảng mới
             let table = document.createElement("table");
             table.classList.add("table", "table-bordered", "table-striped");
 
-            // 🟢 Tạo tiêu đề bảng
+            // Tạo tiêu đề bảng
             let thead = document.createElement("thead");
             let headerRow = document.createElement("tr");
             let columns = Object.keys(data[0]);
@@ -195,7 +247,7 @@ function loadMultipleData() {
             thead.appendChild(headerRow);
             table.appendChild(thead);
 
-            // 🟢 Tạo nội dung bảng
+            // Tạo nội dung bảng
             let tbody = document.createElement("tbody");
             data.forEach((row, index) => {
                 let tr = document.createElement("tr");
@@ -227,9 +279,9 @@ function loadMultipleData() {
 
             table.appendChild(tbody);
             tableContainer.appendChild(table);
-            container.appendChild(tableContainer); // 🟢 Thêm bảng mới vào container chính
+            container.appendChild(tableContainer); // Thêm bảng mới vào container chính
 
-            // 🟢 Reset dropdown, input số PU & PU IC
+            // Reset dropdown, input số PU & PU IC
             document.getElementById("searchChiTieu").value = "";
             let selectBox = document.getElementById("chiTieuSelect");
             for (let option of selectBox.options) {
