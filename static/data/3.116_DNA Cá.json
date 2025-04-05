@@ -1,0 +1,52 @@
+[
+    {
+        "Reagent (25ul\/pu)":"PCR mix 2X",
+        " Cá mix (ul)":12.5,
+        " IC mix (ul)":12.5
+    },
+    {
+        "Reagent (25ul\/pu)":"Cá-F",
+        " Cá mix (ul)":1.25,
+        " IC mix (ul)":""
+    },
+    {
+        "Reagent (25ul\/pu)":"Cá-R",
+        " Cá mix (ul)":1.25,
+        " IC mix (ul)":""
+    },
+    {
+        "Reagent (25ul\/pu)":"Cá-P",
+        " Cá mix (ul)":0.5,
+        " IC mix (ul)":""
+    },
+    {
+        "Reagent (25ul\/pu)":"Plasmid pUC19",
+        " Cá mix (ul)":"",
+        " IC mix (ul)":0.5
+    },
+    {
+        "Reagent (25ul\/pu)":"pUC19-F",
+        " Cá mix (ul)":"",
+        " IC mix (ul)":1.0
+    },
+    {
+        "Reagent (25ul\/pu)":"pUC19-R",
+        " Cá mix (ul)":"",
+        " IC mix (ul)":1.0
+    },
+    {
+        "Reagent (25ul\/pu)":"pUC19-P",
+        " Cá mix (ul)":"",
+        " IC mix (ul)":0.5
+    },
+    {
+        "Reagent (25ul\/pu)":"Nước",
+        " Cá mix (ul)":4.5,
+        " IC mix (ul)":4.5
+    },
+    {
+        "Reagent (25ul\/pu)":"DNA template",
+        " Cá mix (ul)":5.0,
+        " IC mix (ul)":5.0
+    }
+]

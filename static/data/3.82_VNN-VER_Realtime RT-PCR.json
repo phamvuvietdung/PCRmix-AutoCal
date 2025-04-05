@@ -9,15 +9,19 @@
     },
     {
         "Reagent (25ul\/pu)":"VNN-F",
-        " VNN RT-PCR mix (ul)":1.0
+        " VNN RT-PCR mix (ul)":2.25
     },
     {
         "Reagent (25ul\/pu)":"VNN-R",
-        " VNN RT-PCR mix (ul)":1.0
+        " VNN RT-PCR mix (ul)":2.25
+    },
+    {
+        "Reagent (25ul\/pu)":"VNN-P",
+        " VNN RT-PCR mix (ul)":1.875
     },
     {
         "Reagent (25ul\/pu)":"Water",
-        " VNN RT-PCR mix (ul)":5.0
+        " VNN RT-PCR mix (ul)":1.9
     },
     {
         "Reagent (25ul\/pu)":"RNA Template",

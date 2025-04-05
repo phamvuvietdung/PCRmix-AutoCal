@@ -1,0 +1,38 @@
+[
+    {
+        "Reagent (25ul\/pu)":"PCR mix 2X",
+        " DIV1 mix (ul)":12.5
+    },
+    {
+        "Reagent (25ul\/pu)":"DIV1-F",
+        " DIV1 mix (ul)":0.75
+    },
+    {
+        "Reagent (25ul\/pu)":"DIV1-R",
+        " DIV1 mix (ul)":0.75
+    },
+    {
+        "Reagent (25ul\/pu)":"DIV1-P",
+        " DIV1 mix (ul)":0.38
+    },
+    {
+        "Reagent (25ul\/pu)":"Tôm-F",
+        " DIV1 mix (ul)":0.5
+    },
+    {
+        "Reagent (25ul\/pu)":"Tôm-R",
+        " DIV1 mix (ul)":0.5
+    },
+    {
+        "Reagent (25ul\/pu)":"Tôm-P",
+        " DIV1 mix (ul)":0.25
+    },
+    {
+        "Reagent (25ul\/pu)":"Nước",
+        " DIV1 mix (ul)":4.37
+    },
+    {
+        "Reagent (25ul\/pu)":"DNA template",
+        " DIV1 mix (ul)":5.0
+    }
+]

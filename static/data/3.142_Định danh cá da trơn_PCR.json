@@ -1,0 +1,42 @@
+[
+    {
+        "Reagent (25ul\/pu)":"PCR mix 2X",
+        " Cá da trơn mix (ul)":12.5,
+        " IC mix (ul)":12.5
+    },
+    {
+        "Reagent (25ul\/pu)":"Primer-F",
+        " Cá da trơn mix (ul)":0.75,
+        " IC mix (ul)":""
+    },
+    {
+        "Reagent (25ul\/pu)":"Primer-R",
+        " Cá da trơn mix (ul)":0.75,
+        " IC mix (ul)":""
+    },
+    {
+        "Reagent (25ul\/pu)":"Primer F-p322",
+        " Cá da trơn mix (ul)":"",
+        " IC mix (ul)":0.5
+    },
+    {
+        "Reagent (25ul\/pu)":"Primer R-p322",
+        " Cá da trơn mix (ul)":"",
+        " IC mix (ul)":0.5
+    },
+    {
+        "Reagent (25ul\/pu)":"Plasmid p322",
+        " Cá da trơn mix (ul)":"",
+        " IC mix (ul)":0.5
+    },
+    {
+        "Reagent (25ul\/pu)":"Nước",
+        " Cá da trơn mix (ul)":6.0,
+        " IC mix (ul)":6.0
+    },
+    {
+        "Reagent (25ul\/pu)":"DNA template",
+        " Cá da trơn mix (ul)":5.0,
+        " IC mix (ul)":5.0
+    }
+]

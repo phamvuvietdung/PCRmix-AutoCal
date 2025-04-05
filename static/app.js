@@ -1,5 +1,6 @@
 // DOMContentLoaded đảm bảo rằng hàm loadChiTieu() chỉ chạy sau khi toàn bộ HTML đã tải xong.
 // Khi trang web mở, danh sách chỉ tiêu sẽ tự động được tải lên dropdown.
+// app.js sử dụng cho file index.html
 document.addEventListener("DOMContentLoaded", function () {
     loadChiTieu(); // Gọi hàm tải danh sách chỉ tiêu khi trang web được mở
 });
@@ -293,3 +294,54 @@ function loadMultipleData() {
         })
         .catch(error => console.error("Lỗi khi tải dữ liệu:", error));
 }
+
+// -----------------------------------------------------------------------
+// ---PHẦN XỬ LÝ CHO CHỨC NĂNG UPLOAD FILE CỦA add.html và code add.js ---
+// chức năng này chưa hoàn thiện. chưa áp dụng được
+// -----------------------------------------------------------------------
+const express = require("express");
+const multer = require("multer");
+const fs = require("fs");
+const path = require("path");
+const csv = require("csvtojson");
+
+const app = express();
+app.use(express.static("static"));
+app.use(express.json());
+
+// Cấu hình lưu file CSV vào thư mục "database/"
+const upload = multer({ dest: "database/" });
+
+app.post("/upload", upload.single("file"), async (req, res) => {
+    try {
+        if (!req.file) {
+            return res.status(400).json({ message: "Không có file nào được tải lên!" });
+        }
+
+        let csvPath = req.file.path;
+        let jsonFileName = req.file.originalname.replace(".csv", ".json");
+        let jsonPath = `static/data/${jsonFileName}`;
+
+        // Chuyển CSV sang JSON
+        const jsonArray = await csv().fromFile(csvPath);
+        fs.writeFileSync(jsonPath, JSON.stringify(jsonArray, null, 2));
+
+        // Cập nhật danh sách file JSON vào list.json
+        let listFile = "static/data/list.json";
+        let fileList = [];
+
+        if (fs.existsSync(listFile)) {
+            fileList = JSON.parse(fs.readFileSync(listFile, "utf-8"));
+        }
+        fileList.push(jsonFileName);
+        fs.writeFileSync(listFile, JSON.stringify(fileList, null, 2));
+
+        res.json({ message: "Tải lên thành công!", jsonFile: jsonPath });
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ message: "Lỗi server!" });
+    }
+});
+
+// Khởi động server
+app.listen(5500, () => console.log("Server chạy tại http://localhost:5500"));

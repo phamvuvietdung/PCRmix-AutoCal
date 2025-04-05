@@ -1,0 +1,30 @@
+[
+    {
+        "Reagent (25ul\/pu)":"PCR mix 2X",
+        " IHNV mix (ul)":12.5
+    },
+    {
+        "Reagent (25ul\/pu)":"RT mix 50X",
+        " IHNV mix (ul)":0.5
+    },
+    {
+        "Reagent (25ul\/pu)":"IHNV_F",
+        " IHNV mix (ul)":2.25
+    },
+    {
+        "Reagent (25ul\/pu)":"IHNV_R",
+        " IHNV mix (ul)":2.25
+    },
+    {
+        "Reagent (25ul\/pu)":"IHNV_P",
+        " IHNV mix (ul)":0.63
+    },
+    {
+        "Reagent (25ul\/pu)":"Nước",
+        " IHNV mix (ul)":1.87
+    },
+    {
+        "Reagent (25ul\/pu)":"RNA template",
+        " IHNV mix (ul)":5.0
+    }
+]

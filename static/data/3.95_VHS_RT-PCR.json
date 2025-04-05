@@ -1,0 +1,26 @@
+[
+    {
+        "Reagent (25ul\/pu)":"PCR mix 2X",
+        " VHS mix (ul)":12.5
+    },
+    {
+        "Reagent (25ul\/pu)":"RT mix 50X",
+        " VHS mix (ul)":0.5
+    },
+    {
+        "Reagent (25ul\/pu)":"VHS-F",
+        " VHS mix (ul)":1.0
+    },
+    {
+        "Reagent (25ul\/pu)":"VHS-R",
+        " VHS mix (ul)":1.0
+    },
+    {
+        "Reagent (25ul\/pu)":"Nước",
+        " VHS mix (ul)":5.0
+    },
+    {
+        "Reagent (25ul\/pu)":"RNA template",
+        " VHS mix (ul)":5.0
+    }
+]

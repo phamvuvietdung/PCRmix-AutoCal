@@ -1,0 +1,42 @@
+[
+    {
+        "Reagent (25ul\/pu)":"PCR mix 2X",
+        " GX mix (ul)":12.5,
+        " IC mix (ul)":12.5
+    },
+    {
+        "Reagent (25ul\/pu)":"GX-F",
+        " GX mix (ul)":0.75,
+        " IC mix (ul)":""
+    },
+    {
+        "Reagent (25ul\/pu)":"GX-R",
+        " GX mix (ul)":0.75,
+        " IC mix (ul)":""
+    },
+    {
+        "Reagent (25ul\/pu)":"Plasmid pBR322",
+        " GX mix (ul)":"",
+        " IC mix (ul)":0.5
+    },
+    {
+        "Reagent (25ul\/pu)":"pBR322-F",
+        " GX mix (ul)":"",
+        " IC mix (ul)":0.5
+    },
+    {
+        "Reagent (25ul\/pu)":"pBR322-R",
+        " GX mix (ul)":"",
+        " IC mix (ul)":0.5
+    },
+    {
+        "Reagent (25ul\/pu)":"Nước",
+        " GX mix (ul)":6.0,
+        " IC mix (ul)":6.0
+    },
+    {
+        "Reagent (25ul\/pu)":"DNA template",
+        " GX mix (ul)":5.0,
+        " IC mix (ul)":5.0
+    }
+]
